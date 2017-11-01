@@ -17,8 +17,9 @@
 @property (nonatomic, assign, readonly) NSInteger start;
 @property (nonatomic, assign, readonly) NSInteger end;
 
-- (instancetype)initWithStart:(NSInteger)start end:(NSInteger)end;
+@property (nonatomic, assign, readonly) CGPoint cursorPosition;
 
+- (instancetype)initWithStart:(NSInteger)start end:(NSInteger)end cursorPosition:(CGPoint)cursorPosition;
 @end
 
 @interface RCTConvert (RCTTextSelection)
