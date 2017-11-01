@@ -11,7 +11,7 @@
 
 @implementation RCTTextSelection
 
-- (instancetype)initWithStart:(NSInteger)start end:(NSInteger)end
+- (instancetype)initWithStart:(NSInteger)start end:(NSInteger)end cursorPosition:(CGPoint)cursorPosition
 {
   if (self = [super init]) {
     _start = start;
